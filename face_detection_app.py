@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image, ImageColor, ImageOps
 import os
 
-def face_detection(image, confidence=0.60):
+def face_detection(image, confidence=0.50):
 
     # load dnn caffe model
     PROTOTXT = "deploy.prototxt.txt"
